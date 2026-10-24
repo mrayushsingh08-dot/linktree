@@ -1,92 +1,48 @@
-# 🚀 Personal Hub (Linktree Clone)
-**Your professional identity, automated.**
+# 🔗 Linktree — Ayush Singh
 
-A high-performance, dynamic personal landing page that integrates directly with the GitHub API to keep your developer profile and featured projects up-to-date in real-time.
+A personal Linktree-style portfolio hub built with **Claude Code**, using AI-assisted development workflows, modular project organization, and developer automation.
 
----
+🌐 **Live Website:** [linktree-ayushsingh.vercel.app](https://linktree-ayushsingh.vercel.app/)
 
-## ✨ Key Features
+## ✨ About the Project
 
-- **🌐 Dynamic GitHub Integration**: Automatically fetches and displays your name, bio, and avatar from the GitHub REST API.
-- **📦 Automated Project Showcase**: Dynamically pulls your most recently updated repositories, showcasing your current work with real-time star counts.
-- **🌓 Adaptive Theme System**: Seamless Light/Dark mode toggle with persistence via `localStorage` and system preference detection.
-- **🎨 Modern UI/UX**: Built with **Tailwind CSS 4**, featuring complex gradients, backdrop blurs, and a mobile-first responsive design.
-- **💡 Daily Insights**: A built-in random quote generator to provide fresh, inspiring content on every visit.
-- **🔗 Curated Social Links**: High-visibility, stylized links to your essential professional and social platforms.
+This project brings my professional portfolio, social media profiles, email, and GitHub repositories together in one place. I used Claude Code to plan, develop, and refine the project while exploring AI-powered coding tools and agent-based workflows.
 
----
+## 🤖 AI-Assisted Development
 
-## 🛠️ Tech Stack
+Tools and workflows explored during development:
 
-| Category | Technology |
-| :--- | :--- |
-| **Frontend** | React 19 + TypeScript |
-| **Build Tool** | Vite |
-| **Styling** | Tailwind CSS 4 |
-| **API** | GitHub REST API |
-| **Infrastructure** | Docker + Nginx (Alpine) |
+- **Claude Code** — AI-powered coding assistant for project development and code changes.
+- **Plan Mode (`/plan`)** — Plan implementation steps before making changes.
+- **MCP (`/mcp`)** — Explore Model Context Protocol integrations to connect external tools and services.
+- **Plugins (`/plugin`)** — Explore extensible workflows and integrations for Claude Code.
+- **Subagents** — Delegate specialized tasks such as code analysis, implementation planning, and reviews.
+- **Hooks (`/hooks`)** — Configure lifecycle-based automation for supported development tasks.
+- **Ollama** — Explore local model execution and local AI workflows.
 
----
+These tools support a more structured development process, with an emphasis on maintainability, clear instructions, and avoiding unnecessary duplicate files.
 
-## 🚀 Getting Started
+## 🔗 Connect With Me
 
-### Prerequisites
-- [Node.js](https://nodejs.org/) (v20+ recommended)
-- [npm](https://www.npmjs.com/)
+- 🌐 **Portfolio:** [mrayushsingh.in](https://mrayushsingh.in/)
+- 💼 **LinkedIn:** [Ayush Singh](https://www.linkedin.com/in/ayush-singh-7796572a1/)
+- 🐙 **GitHub:** [mrayushsingh08-dot](https://github.com/mrayushsingh08-dot)
+- 📧 **Email:** [ayush4dot@gmail.com](mailto:mrayushsingh@gmail.com)
+- 📸 **Instagram:** [mrayushsingh_08](https://www.instagram.com/mrayushsingh_08/)
 
-### Local Installation
-1. **Clone the repository:**
-   ```bash
-   git clone <your-repo-url>
-   cd linktree
-   ```
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-3. **Start the development server:**
-   ```bash
-   npm run dev
-   ```
-4. **Build for production:**
-   ```bash
-   npm run build
-   ```
+## 🚀 Live Demo
 
-### ⚙️ Configuration
-To customize the hub for your own GitHub profile:
-1. Open `src/App.tsx`.
-2. Locate the GitHub API fetch URL.
-3. Replace the username in the URL (e.g., `mrayushsingh08-dot`) with your own GitHub username.
+Explore the deployed project:
 
----
+**[Open Linktree — Ayush Singh](https://linktree-ayushsingh.vercel.app/)**
 
-## 🚢 Deployment
+## 🛠️ Development Approach
 
-This project is fully containerized for professional deployment.
-
-### Using Docker Compose (Recommended)
-One command to build and launch the application on port 80:
-```bash
-docker-compose up -d --build
-```
-
-### Manual Docker Build
-```bash
-# Build the image
-docker build -t personal-hub .
-
-# Run the container
-docker run -p 80:80 personal-hub
-```
-
-### Infrastructure Note
-The project uses a **multi-stage Docker build**:
-- **Stage 1**: Node.js alpine image to build the static assets.
-- **Stage 2**: Nginx alpine image to serve the `dist` folder.
-- **Routing**: A custom `nginx.conf` is included to handle Single Page Application (SPA) routing, ensuring that page refreshes do not result in 404 errors.
-
----
+1. Plan project tasks and changes before implementation.
+2. Use Claude Code to assist with development and debugging.
+3. Organize project instructions and supporting files.
+4. Explore MCP integrations, plugins, subagents, and hooks where appropriate.
+5. Test changes and deploy the application.
 
 ## 📂 Project Structure
 
@@ -101,3 +57,9 @@ The project uses a **multi-stage Docker build**:
 ├── nginx.conf      # Production server configuration
 └── tailwind.config.js # Styling configuration
 ```
+
+---
+
+⭐ Thanks for visiting my project!
+
+**Developed by Ayush Singh with AI-assisted workflows using Claude Code.**
