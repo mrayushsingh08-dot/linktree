@@ -1,0 +1,5 @@
+{
+  "hooks": {
+    "FileChange": "Agent({ \"subagent_type\": \"code-reviewer\", \"prompt\": \"A file has been changed. Please review the changes in the updated files and provide a critical code review focusing on correctness, performance, and maintainability.\" })"
+  }
+}
